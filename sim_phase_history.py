@@ -1,4 +1,8 @@
 # Generate simulated phase history
+import sys
+import time
+import torch
+import numpy as np
 
 def calc_response(u,alpha,gamma,dt,eta,nu,tau,fc):
     # Process the input data (replace this with actual logic)
@@ -6,6 +10,14 @@ def calc_response(u,alpha,gamma,dt,eta,nu,tau,fc):
 
 def main():
     # Example of calling the helper function
+    u
+    alpha
+    gamma
+    dt
+    eta
+    nu
+    tau
+    fc
     result = calc_response("example input")
     print(f"Result from helper function: {result}")
 

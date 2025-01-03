@@ -9,7 +9,7 @@ def calc_response(u,alpha,gamma,dt,eta,nu,tau,fc):
     return 0
 
 def main():
-    # Example of calling the helper function
+    # Read inputs from JSON
     u
     alpha
     gamma
@@ -18,9 +18,11 @@ def main():
     nu
     tau
     fc
-    result = calc_response("example input")
-    print(f"Result from helper function: {result}")
-
+    
+    # Compute phase history
+    ph = calc_response(u,alpha,gamma,dt,eta,nu,tau,fc)
+    
+    # Write data to file
 
 if __name__ == "__main__":
     main()
